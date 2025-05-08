@@ -3,6 +3,9 @@
 CMakePresets.json
 captures/*
 
+#
+/out
+
 # Prerequisites
 *.d
 
