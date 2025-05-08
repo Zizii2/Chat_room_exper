@@ -80,3 +80,5 @@ USER $USERNAME
 
 # Set up git configuration
 RUN git config --global pull.rebase false
+
+
