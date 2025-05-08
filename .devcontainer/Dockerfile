@@ -45,6 +45,9 @@ RUN apt-get -y install --no-install-recommends \
     && apt-get clean -y \
     && rm -rf /var/lib/apt/lists/*
 
+#Install telnet
+RUN apt-get update && apt-get install telnet
+
 # Create a non-root user for the container
 ARG USERNAME=vscode
 ARG USER_UID=1000
