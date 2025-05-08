@@ -1,3 +1,8 @@
+#Cmake
+/build
+CMakePresets.json
+captures/*
+
 # Prerequisites
 *.d
 
